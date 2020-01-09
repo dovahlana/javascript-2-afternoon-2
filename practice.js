@@ -19,8 +19,8 @@ var arr = [10,20,30];
 
 function first(arr) {
 
-}
 return(arr[0]);
+}
 
 
 
@@ -37,8 +37,9 @@ var arr = [40,50,60];
 
 function last(arr) {
   
-}
+
 return(arr[2]);
+}
 
 
 
@@ -76,12 +77,14 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 function reversedLooper(letters) {
 
-}
+
 alert(letters[4]);
 alert(letters[3]);
 alert(letters[2]);
 alert(letters[1]);
 alert(letters[0]);
+
+}
 
 
 
@@ -98,8 +101,9 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 function evenFinder(nums) {
 
-}
+
 return(nums % 2 === 0 )
+}
 
 
 
