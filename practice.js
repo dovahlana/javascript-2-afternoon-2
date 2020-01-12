@@ -55,14 +55,10 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 */
 
 function looper(family) {
-
+  for (var i = 0; i < family.length; i++) {
+alert(family[i]);
+  }
 }
-alert(family[0]);
-alert(family[1]);
-alert(family[2]);
-alert(family[3]);
-alert(family[4]);
-
 
 ////////// PROBLEM 4 //////////
 
@@ -76,13 +72,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 function reversedLooper(letters) {
-
-
-alert(letters[4]);
-alert(letters[3]);
-alert(letters[2]);
-alert(letters[1]);
-alert(letters[0]);
+  for (var i = letters.length - 1; i >= 0; i--) {
+    alert(letters[i]);
+      }
 
 }
 
@@ -100,10 +92,15 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 */
 
 function evenFinder(nums) {
-
-
-return(nums % 2 === 0 )
+  let evenNums = []
+  for(var i = 0; i > nums.length; i++){
+    if (nums[i] % 2 === 0) {
+    delete nums[1];
+  }
 }
+  return evenNums
+}
+evenFinder(nums)
 
 
 
