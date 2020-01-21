@@ -93,9 +93,9 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 function evenFinder(nums) {
   let evenNums = []
-  for(var i = 0; i > nums.length; i++){
+  for(let i = 0; i < nums.length; i++){
     if (nums[i] % 2 === 0) {
-    delete nums[1];
+    evenNumber += nums[i];
   }
 }
   return evenNums
